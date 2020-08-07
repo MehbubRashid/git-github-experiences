@@ -45,4 +45,4 @@ This will merge the branch-name with currently logged-in branch.
 git merge
 ```
 This will merge the corresponding remote branch with current logged-in branch.
-Here, upstream must be set with previously used ```git push -u origin branch-name``` command.
+Here, upstream must be set previously using ```git push -u origin branch-name``` command.
