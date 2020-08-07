@@ -1,4 +1,34 @@
-<h1>git push Guide</h1>
+# Useful git Commands
+```
+git push -am "message"
+```
+Add+commit at once. No need to ```git add .``` first.
+
+
+```
+git branch
+```
+List all local git branches
+
+
+```
+git branch -a
+```
+List all local+remote branches
+
+
+```
+git log --oneline
+```
+Display all commits with commit hashes.
+
+
+```
+git revert commithash
+```
+Revert till a specific commit. (The specified commit will be erased too) 
+
+# git push Guide
 
 ```bash
 git push origin master
@@ -17,7 +47,7 @@ But if my-branch does not exist in local, it will throw an error saying
 error: src refspec my-branch does not match any
 ```
 
-<h2>What is git push -u origin master</h2>
+## What is git push -u origin master
 
 The -u flag refers to 'set upstream'. Which means the remote master branch will be set as upstream for our local master branch.
 So that, we can just use git push,git pull without specifying the remote name and branch name.
