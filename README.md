@@ -35,3 +35,5 @@ Similarly, this will set upstream remote/branch-name for local/branch-name and t
 
 
 # git merge Guide
+
+```git merge branch-name``` This will merge the branch-name with currently logged-in branch
