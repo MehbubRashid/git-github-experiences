@@ -85,4 +85,4 @@ We can now check on github, the PR is merged there too!
 
 ## Merge commits VS Merge squash VS Rebase
 
-(https://i.stack.imgur.com/3GuQE.png)
+!(https://i.stack.imgur.com/3GuQE.png)
