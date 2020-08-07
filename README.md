@@ -46,3 +46,16 @@ git merge
 ```
 This will merge the corresponding remote branch with current logged-in branch.
 Here, upstream must be set previously using ```git push -u origin branch-name``` command.
+
+
+## How to review and test the codes of a github pull request locally and merge the pull request
+
+First we have to create a local branch using that pull request. This branch will be representing how it will look if we merge the PR.
+
+```
+git fetch upstream pull/37/head:new-branch-name
+```
+
+37 is the id number of the pull request in github. This will fetch the output of that PR and save it in our local new-branch-name
+
+Now we can checkout to new-branch-name and test our code.
