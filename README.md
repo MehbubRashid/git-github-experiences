@@ -91,7 +91,7 @@ Here, upstream must be set previously using ```git push -u origin branch-name```
 First we have to create a local branch using that pull request. This branch will be representing how it will look if we merge the PR.
 
 ```
-git fetch upstream pull/37/head:new-branch-name
+git fetch origin pull/37/head:new-branch-name
 ```
 
 37 is the id number of the pull request in github. This will fetch the output of that PR and save it in our local new-branch-name
