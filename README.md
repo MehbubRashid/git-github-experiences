@@ -60,7 +60,7 @@ git fetch upstream pull/37/head:new-branch-name
 
 Now we can checkout to new-branch-name and test our code.
 
-After we are done testing and checking, we are finally good to merge the PR. We will do it locally too. First we need to merge this new-branch-name with out local master branch. It is always a good idea to ```git pull``` everytime before merging anything to local master.
+After we are done testing and checking, we are finally good to merge the PR. We will do it locally too. First we need to merge this new-branch-name with our local master branch. It is always a good idea to ```git pull``` everytime before merging anything to local master.
 
 
 ```
