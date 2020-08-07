@@ -28,6 +28,14 @@ git revert commithash
 ```
 Revert till a specific commit. (The specified commit will be erased too) 
 
+
+
+```
+git checkout -b branch-name
+```
+Create a new branch called branch-name and checkout to that branch.
+
+
 # git push Guide
 
 ```bash
