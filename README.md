@@ -10,6 +10,12 @@ git push origin my-branch
 ```
 Similarly, this command will push your my-branch to the remote my-branch, no matter which branch you are currently on.
 
+Note: If my-branch does not exist in remote, it will create it in remote.
+But if my-branch does not exist in local, it will throw an error saying
+
+```bash
+error: src refspec my-branch does not match any
+```
 
 <h2>What is git push -u origin master</h2>
 
