@@ -36,4 +36,13 @@ Similarly, this will set upstream remote/branch-name for local/branch-name and t
 
 # git merge Guide
 
-```git merge branch-name``` This will merge the branch-name with currently logged-in branch
+```
+git merge branch-name
+``` 
+This will merge the branch-name with currently logged-in branch.
+
+```
+git merge
+```
+This will merge the corresponding remote branch with current logged-in branch.
+Here, upstream must be set with previously used ```git push -u origin branch-name``` command.
