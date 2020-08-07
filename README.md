@@ -26,7 +26,7 @@ This command is usually run only first time.
 
 
 ```bash
-git push -u origin/branch-name
+git push -u origin branch-name
 ```
 
 Similarly, this will set upstream remote/branch-name for local/branch-name and then git pull, git push can be directly called.
