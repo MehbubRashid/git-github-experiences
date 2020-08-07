@@ -16,4 +16,5 @@ Similarly, this command will push your my-branch to the remote my-branch, no mat
 
 <h2>What is git push -u origin master</h2>
 
-T
+The -u flag refers to 'set upstream'. Which means the remote master branch will be set as upstream for our local master branch.
+So that, we can just use git push,git pull without specifying the remote name and branch name. Here, the current logged in branch is important. Because while using git push, it will push to the corresponding branch of the upstream of current logged in branch.
