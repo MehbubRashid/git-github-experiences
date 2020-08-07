@@ -36,6 +36,12 @@ git checkout -b branch-name
 Create a new branch called branch-name and checkout to that branch.
 
 
+```
+git fetch origin anybranch:anybranch
+```
+Copy origin/anybranch into local/anybranch by creating anybranch in local.
+Upstream is not set by default in this method. So only writing ```git push``` won't work.
+
 # git push Guide
 
 ```bash
