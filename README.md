@@ -30,3 +30,5 @@ git push -u origin branch-name
 ```
 
 Similarly, this will set upstream remote/branch-name for local/branch-name and then git pull, git push can be directly called.
+
+**Alternative Approach:** [How can I tell a local branch to track a remote branch?](https://www.git-tower.com/learn/git/faq/track-remote-upstream-branch)
