@@ -59,3 +59,20 @@ git fetch upstream pull/37/head:new-branch-name
 37 is the id number of the pull request in github. This will fetch the output of that PR and save it in our local new-branch-name
 
 Now we can checkout to new-branch-name and test our code.
+
+After we are done testing and checking, we are finally good to merge the PR. We will do it locally too. First we need to merge this new-branch-name with out local master branch. It will always a good idea to ```git pull``` everytime before merging anything to local master.
+
+
+```
+git checkout master
+git pull
+git merge new-branch-name
+```
+
+Now that we have the PR merged in our local master, we will now push it to the remote master.
+
+```
+git push origin master
+```
+
+We can now check on github, the PR is merged there too!
