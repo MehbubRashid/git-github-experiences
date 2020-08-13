@@ -42,6 +42,29 @@ git fetch origin anybranch:anybranch
 Copy origin/anybranch into local/anybranch by creating anybranch in local.
 Upstream is not set by default in this method. So only writing ```git push``` won't work.
 
+
+```
+git tag v1.0.0
+```
+Create a new tag without any annotations. This type of tags are AKA lightweight tags. In this case, the last commit message is used as tag annotation.
+
+
+```
+git tag v1.6 -m "tag message"
+```
+Create a new tag with an annotation.
+
+
+```
+git push origin v1.6"
+```
+Push v1.6 of local to the remote v1.6.
+
+**Note:** Tags are updatable and deletable.
+[Git Delete Tag and Git Update Tag](https://www.toolsqa.com/git/git-delete-tag/)
+
+
+
 # git push Guide
 
 ```bash
