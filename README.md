@@ -56,7 +56,7 @@ Create a new tag with an annotation.
 
 
 ```
-git push origin v1.6"
+git push origin v1.6
 ```
 Push v1.6 of local to the remote v1.6.
 
