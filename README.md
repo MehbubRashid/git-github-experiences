@@ -176,4 +176,4 @@ Then we can hard reset the current working branch to any specific commit
 git reset --hard commithash
 ```
 
-Now we can again start working after that commit hash.
+Now we can again start working after that commit hash. Next we can use ```git cherry-pick commithash``` to again bring specific commit from our previous backup branch to our current working branch.
