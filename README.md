@@ -24,9 +24,9 @@ Display all commits with commit hashes.
 
 
 ```
-git revert commithash
+git revert --no-commit HEAD~3..
 ```
-Revert till a specific commit. (The specified commit will be erased too) 
+Revert till a specific commit.(in this case, last 3 commits) (The specified commit will be erased too) 
 
 
 
