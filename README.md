@@ -150,6 +150,20 @@ git push
 
 We can now check on github, the PR is merged there too!
 
+## How to go back to previous commit and start working there
+
+First we will create a backup branch of the working branch(master)
+
+```
+git branch backupbranch
+```
+Then we can hard reset the current working branch to any specific commit
+
+```
+git reset --hard commithash
+```
+
+
 ## Merge commits VS Merge squash VS Rebase
 
 ![](https://i.stack.imgur.com/3GuQE.png)
