@@ -27,6 +27,7 @@ Display all commits with commit hashes.
 git revert --no-commit HEAD~3..
 ```
 Revert till a specific commit.(in this case, last 3 commits) (The specified commit will be erased too) 
+After that, we need to use ```git commit``` to commit the revert.
 
 
 
@@ -150,7 +151,18 @@ git push
 
 We can now check on github, the PR is merged there too!
 
-## How to go back to previous commit and start working there
+
+
+
+## Merge commits VS Merge squash VS Rebase
+
+![](https://i.stack.imgur.com/3GuQE.png)
+![](https://i.stack.imgur.com/Lh9LK.png)
+**Rebase:**
+![](https://i.stack.imgur.com/1tGHe.png)
+
+
+# How to go back to previous commit and start working there
 
 First we will create a backup branch of the working branch(master)
 
@@ -162,11 +174,3 @@ Then we can hard reset the current working branch to any specific commit
 ```
 git reset --hard commithash
 ```
-
-
-## Merge commits VS Merge squash VS Rebase
-
-![](https://i.stack.imgur.com/3GuQE.png)
-![](https://i.stack.imgur.com/Lh9LK.png)
-**Rebase:**
-![](https://i.stack.imgur.com/1tGHe.png)
