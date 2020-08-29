@@ -175,3 +175,5 @@ Then we can hard reset the current working branch to any specific commit
 ```
 git reset --hard commithash
 ```
+
+Now we can again start working after that commit hash.
